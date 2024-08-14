@@ -11132,3 +11132,16 @@ textarea.form-control {
 .banner-social-buttons .btn:hover {
     background-color: #e4e4e4;
 }
+
+
+/* Make social icons and text darker */
+.banner-social-buttons .btn-default {
+    color: #333; /* Darker text color */
+    background-color: #001b82; /* Ensure background remains transparent */
+    border-color: #333; /* Darker border color for the buttons */
+}
+
+.banner-social-buttons .btn-default:hover {
+    color: #000; /* Even darker on hover */
+    border-color: #000; /* Darker border on hover */
+}
